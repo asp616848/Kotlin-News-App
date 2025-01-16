@@ -1,0 +1,37 @@
+com.example.abhijeet.geekNews.test.app-lifecycle-livedata-core-2.8.5-0 C:\Users\asp61\.gradle\caches\8.10.2\transforms\061f7cb9357359d94e0a2dcffa541d68\transformed\lifecycle-livedata-core-2.8.5\res
+com.example.abhijeet.geekNews.test.app-lifecycle-runtime-ktx-release-1 C:\Users\asp61\.gradle\caches\8.10.2\transforms\19ea610f23a3b36616b772387194f2ce\transformed\lifecycle-runtime-ktx-release\res
+com.example.abhijeet.geekNews.test.app-profileinstaller-1.3.1-2 C:\Users\asp61\.gradle\caches\8.10.2\transforms\1c9cf4cf5ab0e6a9b8bd2053f64c119f\transformed\profileinstaller-1.3.1\res
+com.example.abhijeet.geekNews.test.app-lifecycle-process-2.8.5-3 C:\Users\asp61\.gradle\caches\8.10.2\transforms\1e79a3af8f7dba3533eba31d8843842d\transformed\lifecycle-process-2.8.5\res
+com.example.abhijeet.geekNews.test.app-lifecycle-runtime-release-4 C:\Users\asp61\.gradle\caches\8.10.2\transforms\240b11478b43c3d09640d46704b66057\transformed\lifecycle-runtime-release\res
+com.example.abhijeet.geekNews.test.app-startup-runtime-1.1.1-5 C:\Users\asp61\.gradle\caches\8.10.2\transforms\2a5d3f7a0720b9d97ca2ad80dd96b897\transformed\startup-runtime-1.1.1\res
+com.example.abhijeet.geekNews.test.app-ui-test-release-6 C:\Users\asp61\.gradle\caches\8.10.2\transforms\2abec5a5df9d38c21515b3649a8b16ac\transformed\ui-test-release\res
+com.example.abhijeet.geekNews.test.app-core-ktx-1.13.1-7 C:\Users\asp61\.gradle\caches\8.10.2\transforms\3775e1c79b8f163414e9f8cbed40a876\transformed\core-ktx-1.13.1\res
+com.example.abhijeet.geekNews.test.app-ui-release-8 C:\Users\asp61\.gradle\caches\8.10.2\transforms\3f93566d4bb49b6963750a180325bc04\transformed\ui-release\res
+com.example.abhijeet.geekNews.test.app-core-runtime-2.2.0-9 C:\Users\asp61\.gradle\caches\8.10.2\transforms\44fcd0b0094ca0806d9b9886fa062d87\transformed\core-runtime-2.2.0\res
+com.example.abhijeet.geekNews.test.app-ui-unit-release-10 C:\Users\asp61\.gradle\caches\8.10.2\transforms\5276a8d1d23e39e2a9f54707dfd811a8\transformed\ui-unit-release\res
+com.example.abhijeet.geekNews.test.app-lifecycle-viewmodel-release-11 C:\Users\asp61\.gradle\caches\8.10.2\transforms\540c9c7a28f315329bb30c8c48bf3e6e\transformed\lifecycle-viewmodel-release\res
+com.example.abhijeet.geekNews.test.app-ui-text-release-12 C:\Users\asp61\.gradle\caches\8.10.2\transforms\6b484f4f6e9bf1e26b82debeac8b1b12\transformed\ui-text-release\res
+com.example.abhijeet.geekNews.test.app-core-1.6.1-13 C:\Users\asp61\.gradle\caches\8.10.2\transforms\75b2d6f56d71303950cf3db4329bee49\transformed\core-1.6.1\res
+com.example.abhijeet.geekNews.test.app-lifecycle-viewmodel-savedstate-2.8.5-14 C:\Users\asp61\.gradle\caches\8.10.2\transforms\7b41731b9deba9a3a386311d981b7474\transformed\lifecycle-viewmodel-savedstate-2.8.5\res
+com.example.abhijeet.geekNews.test.app-customview-poolingcontainer-1.0.0-15 C:\Users\asp61\.gradle\caches\8.10.2\transforms\9b8a7e6883ca5c95b86ba8b2fe019134\transformed\customview-poolingcontainer-1.0.0\res
+com.example.abhijeet.geekNews.test.app-savedstate-1.2.1-16 C:\Users\asp61\.gradle\caches\8.10.2\transforms\a0fb72ecff584b4a9ee8f8fec53db1bc\transformed\savedstate-1.2.1\res
+com.example.abhijeet.geekNews.test.app-activity-ktx-1.9.2-17 C:\Users\asp61\.gradle\caches\8.10.2\transforms\a1ae62d30b1eb825d321a2e39740a396\transformed\activity-ktx-1.9.2\res
+com.example.abhijeet.geekNews.test.app-annotation-experimental-1.4.1-18 C:\Users\asp61\.gradle\caches\8.10.2\transforms\a95e799e98afb8e86e82aaec9696260a\transformed\annotation-experimental-1.4.1\res
+com.example.abhijeet.geekNews.test.app-savedstate-ktx-1.2.1-19 C:\Users\asp61\.gradle\caches\8.10.2\transforms\abc529f4476def5b447e0900f43da791\transformed\savedstate-ktx-1.2.1\res
+com.example.abhijeet.geekNews.test.app-core-1.13.1-20 C:\Users\asp61\.gradle\caches\8.10.2\transforms\adecb01d4b96349e34bba30ee515abff\transformed\core-1.13.1\res
+com.example.abhijeet.geekNews.test.app-ui-util-release-21 C:\Users\asp61\.gradle\caches\8.10.2\transforms\c4355d643e837d6e4abbc461deeafe26\transformed\ui-util-release\res
+com.example.abhijeet.geekNews.test.app-ui-geometry-release-22 C:\Users\asp61\.gradle\caches\8.10.2\transforms\c5982143c1ed4da1390c2b2643845bcc\transformed\ui-geometry-release\res
+com.example.abhijeet.geekNews.test.app-activity-compose-1.9.2-23 C:\Users\asp61\.gradle\caches\8.10.2\transforms\c5d7ca61a3eecd097b5ba70aa2dc3bca\transformed\activity-compose-1.9.2\res
+com.example.abhijeet.geekNews.test.app-ui-test-junit4-release-24 C:\Users\asp61\.gradle\caches\8.10.2\transforms\dd18ba0789e77a4d1d540f8659bc7296\transformed\ui-test-junit4-release\res
+com.example.abhijeet.geekNews.test.app-lifecycle-runtime-compose-release-25 C:\Users\asp61\.gradle\caches\8.10.2\transforms\e05580066e77aac71875ed0eb7ec5ef6\transformed\lifecycle-runtime-compose-release\res
+com.example.abhijeet.geekNews.test.app-lifecycle-viewmodel-ktx-2.8.5-26 C:\Users\asp61\.gradle\caches\8.10.2\transforms\e3b570df52e51d90f789bdf167372e76\transformed\lifecycle-viewmodel-ktx-2.8.5\res
+com.example.abhijeet.geekNews.test.app-graphics-path-1.0.1-27 C:\Users\asp61\.gradle\caches\8.10.2\transforms\e480f57af07e32caac1f4c2481d0bbce\transformed\graphics-path-1.0.1\res
+com.example.abhijeet.geekNews.test.app-runtime-saveable-release-28 C:\Users\asp61\.gradle\caches\8.10.2\transforms\e61ba50f6c329b60ec712a956ade9c62\transformed\runtime-saveable-release\res
+com.example.abhijeet.geekNews.test.app-ui-graphics-release-29 C:\Users\asp61\.gradle\caches\8.10.2\transforms\e9a3ae89f67501ae6a8acd1825cf1429\transformed\ui-graphics-release\res
+com.example.abhijeet.geekNews.test.app-emoji2-1.3.0-30 C:\Users\asp61\.gradle\caches\8.10.2\transforms\ea094abe8fe3170b39dd00af029d1594\transformed\emoji2-1.3.0\res
+com.example.abhijeet.geekNews.test.app-activity-1.9.2-31 C:\Users\asp61\.gradle\caches\8.10.2\transforms\f16ed1cf84f36c42e22669fd93486f5d\transformed\activity-1.9.2\res
+com.example.abhijeet.geekNews.test.app-runtime-release-32 C:\Users\asp61\.gradle\caches\8.10.2\transforms\f7eb69a01c1a4bc28e0874fed870e8c4\transformed\runtime-release\res
+com.example.abhijeet.geekNews.test.app-androidTest-33 E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\build\generated\res\resValues\androidTest\debug
+com.example.abhijeet.geekNews.test.app-mergeDebugAndroidTestResources-34 E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.abhijeet.geekNews.test.app-mergeDebugAndroidTestResources-35 E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.abhijeet.geekNews.test.app-debugAndroidTest-36 E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
