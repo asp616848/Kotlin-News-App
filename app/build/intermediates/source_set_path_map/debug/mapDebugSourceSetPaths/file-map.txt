@@ -51,9 +51,9 @@ com.example.abhijeet.geekNews.app-navigation-runtime-ktx-2.8.1-49 C:\Users\asp61
 com.example.abhijeet.geekNews.app-activity-1.9.2-50 C:\Users\asp61\.gradle\caches\8.10.2\transforms\f16ed1cf84f36c42e22669fd93486f5d\transformed\activity-1.9.2\res
 com.example.abhijeet.geekNews.app-runtime-release-51 C:\Users\asp61\.gradle\caches\8.10.2\transforms\f7eb69a01c1a4bc28e0874fed870e8c4\transformed\runtime-release\res
 com.example.abhijeet.geekNews.app-ui-tooling-release-52 C:\Users\asp61\.gradle\caches\8.10.2\transforms\f9de0b4b3616e8c8eaf4e1c554736d83\transformed\ui-tooling-release\res
-com.example.abhijeet.geekNews.app-resValues-53 E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\build\generated\res\resValues\debug
-com.example.abhijeet.geekNews.app-packageDebugResources-54 E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.abhijeet.geekNews.app-packageDebugResources-55 E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.abhijeet.geekNews.app-debug-56 E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.abhijeet.geekNews.app-debug-57 E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\debug\res
-com.example.abhijeet.geekNews.app-main-58 E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\res
+com.example.abhijeet.geekNews.app-resValues-53 F:\Kotlin-News-App\app\build\generated\res\resValues\debug
+com.example.abhijeet.geekNews.app-packageDebugResources-54 F:\Kotlin-News-App\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.abhijeet.geekNews.app-packageDebugResources-55 F:\Kotlin-News-App\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.abhijeet.geekNews.app-debug-56 F:\Kotlin-News-App\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.abhijeet.geekNews.app-debug-57 F:\Kotlin-News-App\app\src\debug\res
+com.example.abhijeet.geekNews.app-main-58 F:\Kotlin-News-App\app\src\main\res

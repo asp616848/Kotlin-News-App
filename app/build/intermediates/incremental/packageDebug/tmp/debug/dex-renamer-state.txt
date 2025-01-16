@@ -1,10 +1,10 @@
-#Thu Jan 16 22:27:31 IST 2025
-base.0=E\:\\Clone repos\\JetpackCompose_Playground-main\\JetpackCompose_Playground-main\\11_News_App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=E\:\\Clone repos\\JetpackCompose_Playground-main\\JetpackCompose_Playground-main\\11_News_App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=E\:\\Clone repos\\JetpackCompose_Playground-main\\JetpackCompose_Playground-main\\11_News_App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.3=E\:\\Clone repos\\JetpackCompose_Playground-main\\JetpackCompose_Playground-main\\11_News_App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.4=E\:\\Clone repos\\JetpackCompose_Playground-main\\JetpackCompose_Playground-main\\11_News_App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.5=E\:\\Clone repos\\JetpackCompose_Playground-main\\JetpackCompose_Playground-main\\11_News_App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Thu Jan 16 23:02:40 IST 2025
+base.0=F\:\\Kotlin-News-App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=F\:\\Kotlin-News-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=F\:\\Kotlin-News-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.3=F\:\\Kotlin-News-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.4=F\:\\Kotlin-News-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.5=F\:\\Kotlin-News-App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=12/classes.dex

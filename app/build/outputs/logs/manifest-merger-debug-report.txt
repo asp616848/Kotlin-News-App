@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.navigation:navigation-common:2.8.1] C:\Users\asp61\.gradle\caches\8.10.2\transforms\3ff518586f08ed1b5731ea4443c62127\transformed\navigation-common-2.8.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.8.1] C:\Users\asp61\.gradle\caches\8.10.2\transforms\0c1668bd35c1226b99de7f5124ee4353\transformed\navigation-runtime-2.8.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.8.1] C:\Users\asp61\.gradle\caches\8.10.2\transforms\a6adf43597908b7ac6a69d0fa66b1794\transformed\navigation-common-ktx-2.8.1\AndroidManifest.xml:2:1-7:12
@@ -69,23 +69,23 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\asp61\.gradle\cach
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\asp61\.gradle\caches\8.10.2\transforms\ab64d40708672b19919ebbe674649e58\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\asp61\.gradle\caches\8.10.2\transforms\835ddb1ef107acb4ec2ed3d6e96d17bc\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
 	package
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:4:5-44
-		INJECTED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:4:5-44
+		INJECTED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:5:5-66
 	android:name
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:7:5-28:19
-INJECTED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:7:5-28:19
+ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:7:5-28:19
+INJECTED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:7:5-28:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] C:\Users\asp61\.gradle\caches\8.10.2\transforms\eb5f756b0ea94f80a2134220a3d1f416\transformed\ui-test-manifest-1.7.2\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.7.2] C:\Users\asp61\.gradle\caches\8.10.2\transforms\eb5f756b0ea94f80a2134220a3d1f416\transformed\ui-test-manifest-1.7.2\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\asp61\.gradle\caches\8.10.2\transforms\ea094abe8fe3170b39dd00af029d1594\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
@@ -103,51 +103,51 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\asp61\.g
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\asp61\.gradle\caches\8.10.2\transforms\2a5d3f7a0720b9d97ca2ad80dd96b897\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\asp61\.gradle\caches\8.10.2\transforms\2a5d3f7a0720b9d97ca2ad80dd96b897\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\asp61\.gradle\caches\8.10.2\transforms\adecb01d4b96349e34bba30ee515abff\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:16:9-29
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:15:9-45
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:15:9-45
 	android:dataExtractionRules
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:9:9-65
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:9:9-65
 activity#com.example.abhijeet.geekNews.MainActivity
-ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:17:9-27:20
+ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:17:9-27:20
 	android:label
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:20:13-45
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:20:13-45
 	android:exported
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:19:13-36
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:19:13-36
 	android:theme
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:21:13-49
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:21:13-49
 	android:name
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:18:13-41
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml:25:27-74
 uses-sdk
-INJECTED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml
-INJECTED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml
+INJECTED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml
+INJECTED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-common:2.8.1] C:\Users\asp61\.gradle\caches\8.10.2\transforms\3ff518586f08ed1b5731ea4443c62127\transformed\navigation-common-2.8.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.8.1] C:\Users\asp61\.gradle\caches\8.10.2\transforms\3ff518586f08ed1b5731ea4443c62127\transformed\navigation-common-2.8.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime:2.8.1] C:\Users\asp61\.gradle\caches\8.10.2\transforms\0c1668bd35c1226b99de7f5124ee4353\transformed\navigation-runtime-2.8.1\AndroidManifest.xml:20:5-44
@@ -277,9 +277,9 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\asp61\.gradle\caches\8.10.
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\asp61\.gradle\caches\8.10.2\transforms\835ddb1ef107acb4ec2ed3d6e96d17bc\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\asp61\.gradle\caches\8.10.2\transforms\835ddb1ef107acb4ec2ed3d6e96d17bc\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
 	android:targetSdkVersion
-		INJECTED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Clone repos\JetpackCompose_Playground-main\JetpackCompose_Playground-main\11_News_App\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Kotlin-News-App\app\src\main\AndroidManifest.xml
 activity#androidx.activity.ComponentActivity
 ADDED from [androidx.compose.ui:ui-test-manifest:1.7.2] C:\Users\asp61\.gradle\caches\8.10.2\transforms\eb5f756b0ea94f80a2134220a3d1f416\transformed\ui-test-manifest-1.7.2\AndroidManifest.xml:23:9-25:39
 	android:exported

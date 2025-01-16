@@ -110,23 +110,6 @@
                     }
                 },
                 {
-                    "source": "E:\\Clone repos\\JetpackCompose_Playground-main\\JetpackCompose_Playground-main\\11_News_App\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "56",
-                        "endColumns": "84",
-                        "endOffsets": "136"
-                    },
-                    "to": {
-                        "startLines": "219",
-                        "startColumns": "4",
-                        "startOffsets": "13809",
-                        "endColumns": "83",
-                        "endOffsets": "13888"
-                    }
-                },
-                {
                     "source": "C:\\Users\\asp61\\.gradle\\caches\\8.10.2\\transforms\\73d5150de934e6b1300661b4aa588dd0\\transformed\\appcompat-resources-1.6.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,18,24,34,50",
@@ -146,23 +129,6 @@
                     }
                 },
                 {
-                    "source": "E:\\Clone repos\\JetpackCompose_Playground-main\\JetpackCompose_Playground-main\\11_News_App\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
-                    },
-                    "to": {
-                        "startLines": "5,10,11,12,13,14,15",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "370,675,722,769,816,861,906",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "407,717,764,811,856,901,943"
-                    }
-                },
-                {
                     "source": "C:\\Users\\asp61\\.gradle\\caches\\8.10.2\\transforms\\9b8a7e6883ca5c95b86ba8b2fe019134\\transformed\\customview-poolingcontainer-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -177,23 +143,6 @@
                         "startOffsets": "4946,5123",
                         "endColumns": "53,66",
                         "endOffsets": "4995,5185"
-                    }
-                },
-                {
-                    "source": "E:\\Clone repos\\JetpackCompose_Playground-main\\JetpackCompose_Playground-main\\11_News_App\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "45",
-                        "endOffsets": "57"
-                    },
-                    "to": {
-                        "startLines": "109",
-                        "startColumns": "4",
-                        "startOffsets": "6504",
-                        "endColumns": "45",
-                        "endOffsets": "6545"
                     }
                 },
                 {
@@ -250,6 +199,23 @@
                     }
                 },
                 {
+                    "source": "F:\\Kotlin-News-App\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "45",
+                        "endOffsets": "57"
+                    },
+                    "to": {
+                        "startLines": "109",
+                        "startColumns": "4",
+                        "startOffsets": "6504",
+                        "endColumns": "45",
+                        "endOffsets": "6545"
+                    }
+                },
+                {
                     "source": "C:\\Users\\asp61\\.gradle\\caches\\8.10.2\\transforms\\f16ed1cf84f36c42e22669fd93486f5d\\transformed\\activity-1.9.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -303,6 +269,23 @@
                     }
                 },
                 {
+                    "source": "F:\\Kotlin-News-App\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "5,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "370,675,722,769,816,861,906",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "407,717,764,811,856,901,943"
+                    }
+                },
+                {
                     "source": "C:\\Users\\asp61\\.gradle\\caches\\8.10.2\\transforms\\0c1668bd35c1226b99de7f5124ee4353\\transformed\\navigation-runtime-2.8.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,10,13",
@@ -319,6 +302,23 @@
                         "endLines": "83,228,400,403",
                         "endColumns": "52,24,24,24",
                         "endOffsets": "5118,14331,20361,20476"
+                    }
+                },
+                {
+                    "source": "F:\\Kotlin-News-App\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "84",
+                        "endOffsets": "136"
+                    },
+                    "to": {
+                        "startLines": "219",
+                        "startColumns": "4",
+                        "startOffsets": "13809",
+                        "endColumns": "83",
+                        "endOffsets": "13888"
                     }
                 }
             ]
