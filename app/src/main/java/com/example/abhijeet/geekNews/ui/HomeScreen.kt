@@ -56,17 +56,17 @@ fun HomePage(viewModel: ViewModel, navController: NavHostController) {
     Column(modifier = Modifier.fillMaxSize()) {
         CategoriesBar(viewModel)
 
-        Spacer(modifier = Modifier.height(10.dp))
+        Spacer(modifier = Modifier._____(10.dp)) // Q1: Spacer needs height or width based on the layout direction.
         Column(
             modifier = Modifier
-                .fillMaxSize()
-                .padding(16.dp)
+                ._____(_____) // Q2: Use fillMaxWidth for horizontal layouts or fillMaxHeight for vertical.
+                ._____(16.dp) // Q3: Padding applies spacing around the element.
         ) {
             LazyColumn(
-                modifier = Modifier.fillMaxSize(),
-                verticalArrangement = Arrangement.spacedBy(12.dp)
+                modifier = Modifier._____(_____)._____(_____()), // Q4: Use fillMaxSize or similar for layout size.
+                verticalArrangement = Arrangement._____(_____.dp) // Q5: Use Arrangement.spacedBy() for spacing between items.
             ) {
-                items(articles) { article ->
+                items(_____) { article -> // Q6: The items function takes a list or collection to iterate over.
                     ArticleItem(article, navController)
                 }
             }
@@ -78,8 +78,8 @@ fun HomePage(viewModel: ViewModel, navController: NavHostController) {
 fun ArticleItem(article: Article, navController: NavHostController) {
     Card(
         modifier = Modifier
-            .fillMaxWidth()
-            .padding(horizontal = 8.dp),
+            ._____(_____) // Q7: Cards usually span the full width of their parent.
+            ._____(horizontal = 8.dp), // Q8: Padding applies space to horizontal or vertical sides.
         elevation = CardDefaults.cardElevation(defaultElevation = 6.dp),
         colors = CardDefaults.cardColors(containerColor = Color.White),
         onClick = {
@@ -88,33 +88,33 @@ fun ArticleItem(article: Article, navController: NavHostController) {
     ) {
         Row(
             modifier = Modifier
-                .fillMaxWidth()
-                .padding(12.dp),
-            verticalAlignment = Alignment.CenterVertically
+                ._____(_____) // Q9: Row usually spans full width for horizontal alignment.
+                ._____(12.dp), // Q10: Padding adds space inside the container.
+            verticalAlignment = Alignment._____(_____) // Q11: Aligns children vertically within the Row.
         ) {
             AsyncImage(
                 model = article.urlToImage
                     ?: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUrgu4a7W_OM8LmAuN7Prk8dzWXm7PVB_FmA&s",
                 contentDescription = "Article image",
                 modifier = Modifier
-                    .size(80.dp)
-                    .aspectRatio(1f)
-                    .clip(CircleShape)
-                    .border(1.dp, Color.Gray, CircleShape),
-                contentScale = ContentScale.Crop
+                    ._____(80.dp) // Q12: Use size to define width and height of an element.
+                    ._____(1f) // Q13: Aspect ratio of 1f keeps the element square.
+                    ._____(CircleShape) // Q14: Clip to shape, e.g., CircleShape.
+                    ._____(1.dp, Color.Gray, CircleShape), // Q15: Add border with thickness, color, and shape.
+                contentScale = ContentScale._____(_____) // Q16: Crop scales image to fill container.
             )
 
             Column(
                 modifier = Modifier
-                    .padding(start = 12.dp)
-                    .weight(1f)
+                    ._____(start = 12.dp) // Q17: Padding on start for space between image and text.
+                    ._____(1f) // Q18: Weight ensures text column takes up remaining space.
             ) {
                 Text(
                     text = article.title,
-                    fontWeight = FontWeight.Bold,
-                    fontSize = 16.sp,
+                    fontWeight = FontWeight._____, // Q19: FontWeight controls text weight (e.g., Bold).
+                    fontSize = _____.sp, // Q20: FontSize is measured in sp for scalable pixels.
                     maxLines = 2,
-                    color = Color.Black
+                    color = Color._____(_____) // Q21: Text color is defined by Color object.
                 )
                 Text(
                     text = article.source.name,
@@ -139,18 +139,19 @@ fun CategoriesBar(viewModel: ViewModel) {
 
     Row(
         modifier = Modifier
-            .fillMaxWidth()
-            .padding(8.dp)
-            .horizontalScroll(rememberScrollState()),
-        verticalAlignment = Alignment.CenterVertically
+            ._____(_____) // Q22: Fill the full width for horizontal alignment.
+            ._____(8.dp) // Q23: Add padding for spacing around the row.
+            ._____(rememberScrollState()), // Q24: Horizontal scroll for overflowing elements.
+        verticalAlignment = Alignment._____(_____) // Q25: Vertically aligns items within the Row.
     ) {
         if (isSearchExpanded) {
             OutlinedTextField(
                 modifier = Modifier
-                    .padding(end = 8.dp).border(1.dp, Color.White, CircleShape),
+                    ._____(end = 8.dp) // Q26: Add padding to separate from other elements.
+                    ._____(1.dp, Color.White, CircleShape), // Q27: Add border with a circular shape.
                 value = searchQuery,
                 onValueChange = { searchQuery = it },
-                placeholder = { Text("Search articles...", color = Color.White) },
+                placeholder = { Text("Search articles...", color = Color.White) }, // Q28: Placeholder for text input.
                 trailingIcon = {
                     IconButton(onClick = {
                         isSearchExpanded = false
@@ -158,28 +159,27 @@ fun CategoriesBar(viewModel: ViewModel) {
                             viewModel.fetchEverythingWithQuery(searchQuery)
                         }
                     }) {
-                        Icon(Icons.Default.Search, contentDescription = "Search")
+                        Icon(Icons.Default.Search, contentDescription = "Search") // Q29: Icon with description for accessibility.
                     }
                 }
             )
         } else {
             IconButton(onClick = { isSearchExpanded = true }) {
-                Icon(Icons.Filled.Search, contentDescription = "Search", tint = Color.White)
+                Icon(Icons.Filled.Search, contentDescription = "__Add a description of your choice___", tint = ____) // Color.White or Color.Black or whatever
             }
         }
 
         categoriesList.forEach { category ->
             Button(
                 onClick = { viewModel.fetchNewsTopHeadlines(category) },
-                modifier = Modifier.padding(horizontal = 4.dp)
-                    .clip(CircleShape),
+                modifier = Modifier._____(horizontal = 4.dp) // Q30: Horizontal padding for button spacing.
+                    ._____(CircleShape), // Q31: Clip button shape to a circle.
                 colors = ButtonDefaults.buttonColors(
                     containerColor = if (isSystemInDarkTheme()) Color(0xFF03DAC6) else Color(0xFF018786),
                     contentColor = Color.Black
                 )
-
             ) {
-                Text(text = category, fontSize = 14.sp)
+                Text(text = category, fontSize = 14.sp) // Q32: Text size and content within the button.
             }
         }
     }

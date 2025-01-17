@@ -4,7 +4,8 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class NewsUrl(
-    val url : String
+    val url : _____
+    // data type of url??
 )
 @Serializable
 object HomePageScreen
