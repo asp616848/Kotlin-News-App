@@ -41,37 +41,49 @@ class MainActivity : ComponentActivity() {
         setContent {
             val navController = rememberNavController()
             NewsNowTheme {
-                Scaffold(modifier = _____._______) { innerPadding ->
-                    // Modifier.fillMaxSize() Modifier.fillMaxWidth() Modifier.fillMaxHeight() ??
+                Scaffold(
+                    modifier = Modifier._____ // Q1: Use Modifier.fillMaxSize() for a full-screen scaffold.
+                ) { innerPadding ->
                     Column(
                         modifier = Modifier
                             .padding(innerPadding)
                             .fillMaxSize()
-                            .background(Color.____),
+                            .background(Color._____), // Q2: Set a color for the background, e.g., Color.White or Color.Black.
                     ) {
-                        Spacer(modifier = Modifier.height(_____)) // int.dp
-                        Card(modifier = ____, shape = MaterialTheme.shapes.medium) {
-                            // Modifier.fillMaxSize() Modifier.fillMaxWidth() Modifier.fillMaxHeight() ??
+                        Spacer(modifier = Modifier.height(____.dp)) // Q3: Define a height for the spacer, e.g., 20.dp.
+
+                        Card(
+                            modifier = Modifier
+                                .fillMaxWidth() // Q4: Make the card span the full width of the screen.
+                                .padding(16.dp), // Q5: Add padding around the card.
+                            shape = MaterialTheme.shapes.medium
+                        ) {
                             Text(
                                 text = "GeekNews",
-                                modifier = Modifier.align(Alignment.CenterHorizontally),
-                                color = Color.____, // Color.White or Color.Black
-                                fontSize = ____, // int.sp
+                                modifier = Modifier.align(Alignment.CenterHorizontally), // Q6: Center the text horizontally.
+                                color = Color._____, // Q7: Choose text color, e.g., Color.Black or Color.White.
+                                fontSize = ____.sp, // Q8: Set the font size, e.g., 24.sp.
                                 fontFamily = FontFamily.Serif,
-                                fontWeight = ___, // BOLD? ITALICS? NORMAL?
-                                // androidx.compose.ui.text.font.FontWeight.Bold
+                                fontWeight = androidx.compose.ui.text.font.FontWeight._____, // Q9: Set font weight, e.g., Bold or Normal.
                             )
                         }
-                        Spacer(modifier = Modifier.height(10.dp))
 
-                        NavHost(navController = navController, startDestination = HomePageScreen) {
+                        Spacer(modifier = Modifier.height(10.dp)) // Spacer to add space between elements.
+
+                        NavHost(
+                            navController = navController,
+                            startDestination = HomePageScreen
+                        ) {
                             composable<HomePageScreen> {
-                                HomePage(___VM_Instance__ , ____ ) // Navigate?
+                                HomePage(
+                                    viewModel,  // Q10: Pass the ViewModel instance to the HomePage composable.
+                                    navController // Q11: Pass the NavController for navigation.
+                                )
                             }
 
                             composable<NewsUrl> {
-                                val args = it.toRoute<NewsUrl>()
-                                NewsArticlePage(args.url)
+                                val args = it.toRoute<NewsUrl>() // Q12: Use `toRoute` to retrieve arguments from the route.
+                                NewsArticlePage(args.url) // Q13: Pass the URL argument to the NewsArticlePage composable.
                             }
                         }
                     }
