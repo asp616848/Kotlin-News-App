@@ -10,10 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5875ed3-fda4-4ed6-96ad-ab2bb791f0e4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/abhijeet/geekNews/API.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/abhijeet/geekNews/API.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/abhijeet/geekNews/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/abhijeet/geekNews/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/abhijeet/geekNews/ui/FullScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/abhijeet/geekNews/ui/FullScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/abhijeet/geekNews/ViewModel/ViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/abhijeet/geekNews/ViewModel/ViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
