@@ -14,7 +14,8 @@ import com.example.abhijeet.geekNews.API
 class ViewModel : ViewModel() {
 
     private val _articles = MutableLiveData<List<Article>>()
-    val articles: LiveData<List<Article>> = _articles
+    val articles: LiveData<List<Article>> = ______
+    // what would you like your local variable to be set to upon value changes and initialization
 
     init {
         fetchNewsTopHeadlines()
@@ -48,18 +49,25 @@ class ViewModel : ViewModel() {
     }
 
     fun fetchEverythingWithQuery(query : String){
-        val newsApiClient = NewsApiClient(API.apiKey)
+        val newsApiClient = NewsApiClient(______)//TODO : Add your API key here, use the object you created
+        //  {Object_name.variable_name}
 
         val request = EverythingRequest.Builder().language("en").q(query).build()
 
-        newsApiClient.getEverything(request, object : NewsApiClient.ArticlesResponseCallback{
-            override fun onSuccess(response: ArticleResponse?) {
+        ________.getEverything(request, object : NewsApiClient.ArticlesResponseCallback{
+            // we call api functions on object/reference of client of that API. What is the client var here?
+
+
+
+            // onSuccess and onFailure are the two functions that we need to override to choose what happens
+            // when the API call is successful or fails
+            override fun ______(response: ArticleResponse?) {
                 response?.articles?.let {
                     _articles.postValue(it)
                 }
             }
 
-            override fun onFailure(throwable: Throwable?) {
+            override fun _______(throwable: Throwable?) {
                 if (throwable != null) {
                     Log.i("NewsAPI Response Failed",throwable.localizedMessage)
                 }
