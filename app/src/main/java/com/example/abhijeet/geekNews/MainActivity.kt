@@ -41,29 +41,32 @@ class MainActivity : ComponentActivity() {
         setContent {
             val navController = rememberNavController()
             NewsNowTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                Scaffold(modifier = _____._______) { innerPadding ->
+                    // Modifier.fillMaxSize() Modifier.fillMaxWidth() Modifier.fillMaxHeight() ??
                     Column(
                         modifier = Modifier
                             .padding(innerPadding)
                             .fillMaxSize()
-                            .background(Color.Black),
+                            .background(Color.____),
                     ) {
-                        Spacer(modifier = Modifier.height(10.dp))
-                        Card(modifier = Modifier.fillMaxWidth(), shape = MaterialTheme.shapes.medium) {
+                        Spacer(modifier = Modifier.height(_____)) // int.dp
+                        Card(modifier = ____, shape = MaterialTheme.shapes.medium) {
+                            // Modifier.fillMaxSize() Modifier.fillMaxWidth() Modifier.fillMaxHeight() ??
                             Text(
                                 text = "GeekNews",
                                 modifier = Modifier.align(Alignment.CenterHorizontally),
-                                color = Color.Black,
-                                fontSize = 25.sp,
+                                color = Color.____, // Color.White or Color.Black
+                                fontSize = ____, // int.sp
                                 fontFamily = FontFamily.Serif,
-                                fontWeight = androidx.compose.ui.text.font.FontWeight.Bold,
+                                fontWeight = ___, // BOLD? ITALICS? NORMAL?
+                                // androidx.compose.ui.text.font.FontWeight.Bold
                             )
                         }
                         Spacer(modifier = Modifier.height(10.dp))
 
                         NavHost(navController = navController, startDestination = HomePageScreen) {
                             composable<HomePageScreen> {
-                                HomePage(viewModel, navController)
+                                HomePage(___VM_Instance__ , ____ ) // Navigate?
                             }
 
                             composable<NewsUrl> {
