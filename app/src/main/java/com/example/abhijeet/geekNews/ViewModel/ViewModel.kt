@@ -16,14 +16,14 @@ class ViewModel : ViewModel() {
     private val _articles = MutableLiveData<List<Article>>()
     val articles: LiveData<List<Article>> = _articles
 
-
     init {
         fetchNewsTopHeadlines()
     }
 
+    // TODO TASK, Can you combine the below two functions? [hint: its easy]
+
     fun fetchNewsTopHeadlines(category : String = "GENERAL"){
         val newsApiClient = NewsApiClient(API.apiKey)
-
         val request = TopHeadlinesRequest.Builder().language("en").category(category).build()
 
         newsApiClient.getTopHeadlines(request, object : NewsApiClient.ArticlesResponseCallback{
@@ -37,14 +37,11 @@ class ViewModel : ViewModel() {
                     Log.i("NewsAPI Response Failed",throwable.localizedMessage)
                 }
             }
-
         })
-
     }
 
     fun fetchEverythingWithQuery(query : String){
         val newsApiClient = NewsApiClient(API.apiKey)
-
         val request = EverythingRequest.Builder().language("en").q(query).build()
 
         newsApiClient.getEverything(request, object : NewsApiClient.ArticlesResponseCallback{
@@ -59,11 +56,8 @@ class ViewModel : ViewModel() {
                     Log.i("NewsAPI Response Failed",throwable.localizedMessage)
                 }
             }
-
         })
-
     }
-
 }
 
 
