@@ -16,6 +16,7 @@ class ViewModel : ViewModel() {
     private val _articles = MutableLiveData<List<Article>>()
     val articles: LiveData<List<Article>> = _____ // Q1: Use `_articles` to link LiveData.
 
+
     init {
         fetchNewsTopHeadlines()
     }
@@ -30,6 +31,7 @@ class ViewModel : ViewModel() {
 
         newsApiClient.getTopHeadlines(request, object : NewsApiClient.ArticlesResponseCallback {
             // onSuccess and onFailure are the two functions that we need to override.
+
 
             override fun onSuccess(response: ArticleResponse?) { // Q3: Override the `onSuccess` function.
                 response?.articles?.let {
@@ -52,6 +54,7 @@ class ViewModel : ViewModel() {
             .language("en")
             .q(query)
             .build()
+
 
         newsApiClient.getEverything(request, object : NewsApiClient.ArticlesResponseCallback {
             // onSuccess and onFailure are the two functions that we need to override.

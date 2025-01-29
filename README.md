@@ -18,6 +18,7 @@ _To be added
 - **Libraries**:
     - [News API Client](https://github.com/KwabenBerko/News-Api-Java)
 
+
 ## Prerequisites ⚙️
 - Android Studio Flamingo or later.
 - An API Key from [NewsAPI](https://newsapi.org/).
