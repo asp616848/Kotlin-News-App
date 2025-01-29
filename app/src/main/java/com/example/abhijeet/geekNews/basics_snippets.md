@@ -55,13 +55,13 @@ fun main() {
 ```fun main() {
     // For loop
     for (i in 1..5) {
-        println("For loop iteration: $i")
+        println("GeekLoo0p Iteration: $i")
     }
 
     // While loop
-    var counter = 5
-    while (counter > 0) {
+    var count = 5
+    while (count >= 0) {
         println("While loop countdown: $counter")
-        counter--
+        count--
     }
 }```

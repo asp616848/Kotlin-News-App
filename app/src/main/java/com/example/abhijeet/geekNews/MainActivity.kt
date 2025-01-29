@@ -56,28 +56,28 @@ class MainActivity : ComponentActivity() {
                 val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior(rememberTopAppBarState())
                 Scaffold(
                     modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
-                    topBar = {
-                        MediumTopAppBar(
-                            colors = TopAppBarDefaults.topAppBarColors(
-                                containerColor = MaterialTheme.colorScheme.primaryContainer,
-                                titleContentColor = MaterialTheme.colorScheme.primary,
-                            ),
-                            title = {
-                                Text(
-                                    "GeekNews"
-                                )
-                            },
-                            navigationIcon = {
-                                IconButton(onClick = { /* do something */ }) {
-                                    Icon(
-                                        imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                                        contentDescription = "Localized description"
-                                    )
-                                }
-                            },
-                            scrollBehavior = scrollBehavior,
-                        )
-                    },
+//                    topBar = {
+//                        MediumTopAppBar(
+//                            colors = TopAppBarDefaults.topAppBarColors(
+//                                containerColor = MaterialTheme.colorScheme.primaryContainer,
+//                                titleContentColor = MaterialTheme.colorScheme.primary,
+//                            ),
+//                            title = {
+//                                Text(
+//                                    "GeekNews"
+//                                )
+//                            },
+//                            navigationIcon = {
+//                                IconButton(onClick = { /* do something */ }) {
+//                                    Icon(
+//                                        imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+//                                        contentDescription = "Localized description"
+//                                    )
+//                                }
+//                            },
+//                            scrollBehavior = scrollBehavior,
+//                        )
+//                    },
                 ) { innerPadding ->
                     Column(
                         modifier = Modifier
