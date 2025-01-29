@@ -53,60 +53,52 @@ class MainActivity : ComponentActivity() {
         setContent {
             val navController = rememberNavController()
             NewsNowTheme {
-                val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior(rememberTopAppBarState())
                 Scaffold(
-                    modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
-//                    topBar = {
-//                        MediumTopAppBar(
-//                            colors = TopAppBarDefaults.topAppBarColors(
-//                                containerColor = MaterialTheme.colorScheme.primaryContainer,
-//                                titleContentColor = MaterialTheme.colorScheme.primary,
-//                            ),
-//                            title = {
-//                                Text(
-//                                    "GeekNews"
-//                                )
-//                            },
-//                            navigationIcon = {
-//                                IconButton(onClick = { /* do something */ }) {
-//                                    Icon(
-//                                        imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-//                                        contentDescription = "Localized description"
-//                                    )
-//                                }
-//                            },
-//                            scrollBehavior = scrollBehavior,
-//                        )
-//                    },
+                    modifier = Modifier._____ // Q1: Use Modifier.fillMaxSize() for a full-screen scaffold.
+
                 ) { innerPadding ->
                     Column(
                         modifier = Modifier
                             .padding(innerPadding)
                             .fillMaxSize()
-                            .background(Color.Black),
+                            .background(Color._____), // Q2: Set a color for the background, e.g., Color.White or Color.Black.
                     ) {
+                        Spacer(modifier = Modifier.height(____.dp)) // Q3: Define a height for the spacer, e.g., 20.dp.
 
-                        Spacer(modifier = Modifier.height(10.dp))
-                        Card(modifier = Modifier.fillMaxWidth(), shape = MaterialTheme.shapes.medium) {
+                        Card(
+                            modifier = Modifier
+                                .fillMaxWidth() // Q4: Make the card span the full width of the screen.
+                                .padding(16.dp), // Q5: Add padding around the card.
+                            shape = MaterialTheme.shapes.medium
+                        ) {
+
                             Text(
                                 text = "GeekNews",
-                                modifier = Modifier.align(Alignment.CenterHorizontally),
-                                color = Color.Black,
-                                fontSize = 25.sp,
+                                modifier = Modifier.align(Alignment.CenterHorizontally), // Q6: Center the text horizontally.
+                                color = Color._____, // Q7: Choose text color, e.g., Color.Black or Color.White.
+                                fontSize = ____.sp, // Q8: Set the font size, e.g., 24.sp.
                                 fontFamily = FontFamily.Serif,
-                                fontWeight = androidx.compose.ui.text.font.FontWeight.Bold,
+                                fontWeight = androidx.compose.ui.text.font.FontWeight._____, // Q9: Set font weight, e.g., Bold or Normal.
                             )
                         }
-                        Spacer(modifier = Modifier.height(10.dp))
 
-                        NavHost(navController = navController, startDestination = HomePageScreen) {
+                        Spacer(modifier = Modifier.height(10.dp)) // Spacer to add space between elements.
+
+                        NavHost(
+                            navController = navController,
+                            startDestination = HomePageScreen
+                        ) {
                             composable<HomePageScreen> {
-                                HomePage(viewModel, navController)
+                                HomePage(
+                                    viewModel,  // Q10: Pass the ViewModel instance to the HomePage composable.
+                                    navController // Q11: Pass the NavController for navigation.
+                                )
                             }
 
                             composable<NewsUrl> {
-                                val args = it.toRoute<NewsUrl>()  // this  returns the NewsUrl object from data class in Route.kt
-                                NewsArticlePage(args.url)  // pass obtained url to composable
+                                val args = it.toRoute<NewsUrl>() // Q12: Use `toRoute` to retrieve arguments from the route.
+                                NewsArticlePage(args.url) // Q13: Pass the URL argument to the NewsArticlePage composable.
+
                             }
                         }
                     }

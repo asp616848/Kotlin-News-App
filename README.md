@@ -16,7 +16,8 @@ _To be added
 - **UI Framework**: Jetpack Compose
 - **Networking**: [NewsAPI](https://newsapi.org/)
 - **Libraries**:
-  - [News API Client](https://github.com/KwabenBerko/News-Api-Java)
+    - [News API Client](https://github.com/KwabenBerko/News-Api-Java)
+
 
 ## Prerequisites ⚙️
 - Android Studio Flamingo or later.
