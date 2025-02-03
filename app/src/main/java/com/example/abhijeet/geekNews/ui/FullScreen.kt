@@ -9,10 +9,10 @@ import androidx.compose.ui.viewinterop.AndroidView
 fun NewsArticlePage(url: String) {
     AndroidView(factory = { context ->
         WebView(context).apply { // Extra: Read about WebView
-            settings.javaScriptEnabled = ____ // we would need JS to load the page
+            settings.javaScriptEnabled = true // we would need JS to load the page
                 //true? false?
             webViewClient = WebViewClient()
-            loadUrl( ___address___ ) // look at all variables and parameters you have
+            loadUrl( url ) // look at all variables and parameters you have
         }
     })
 }
